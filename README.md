@@ -1,4 +1,4 @@
-# char-room
+# chat-room
 NIO-DEMO
 
 ## ChatServer 
