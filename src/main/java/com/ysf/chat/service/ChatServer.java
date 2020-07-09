@@ -146,7 +146,7 @@ public class ChatServer {
             String address = socketChannel.getRemoteAddress().toString();
             User disConnectUser = userMap.get(address);
             String name = disConnectUser.getUserName();
-            System.out.println("receive disconnection from " + name);
+            System.out.println(name + "断开了链接");
 
             users.remove(disConnectUser);
             userMap.remove(address);

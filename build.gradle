@@ -8,9 +8,8 @@ version '1.0.0'
 sourceCompatibility = 1.8
 
 repositories {
-    maven {
-        url "http://repo2.maven.org/maven2/"
-    }
+    maven { url 'https://maven.aliyun.com/repository/google/' }
+    maven { url 'https://maven.aliyun.com/repository/jcenter/'}
 //    mavenCentral()
 }
 
